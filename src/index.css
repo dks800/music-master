@@ -3,3 +3,19 @@ body{
     font-size: 20px;
     padding: 2.5%;
 }
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.artist-profile {
+    object-fit: 'cover';
+    border-radius: 50%;
+}
+
+.album-images {
+    height: 100px;
+    width: 100px;
+    object-fit: 'cover';
+}
