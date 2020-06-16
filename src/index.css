@@ -10,12 +10,52 @@ img {
 }
 
 .artist-profile {
-    object-fit: 'cover';
+    object-fit: cover;
     border-radius: 50%;
 }
 
-.album-images {
-    height: 100px;
-    width: 100px;
-    object-fit: 'cover';
+.track-text {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+}
+
+.track-icon{
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+    color: white;
+    background: black;
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 50%;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.track-div img{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.track-div img:hover{
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.track-div{
+    width: 150px;
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative;
 }
